@@ -423,7 +423,11 @@ body > section {
   font-size: 1.125em;
 }
 
-/* line 140, ../stylesheets/main.scss */
+/* line 138, ../stylesheets/main.scss */
+.team {
+  padding-bottom: 4.375em;
+}
+/* line 141, ../stylesheets/main.scss */
 .team section {
   display: block;
   float: left;
@@ -435,28 +439,30 @@ body > section {
 .team section:last-child {
   margin-right: 0;
 }
-/* line 145, ../stylesheets/main.scss */
+/* line 146, ../stylesheets/main.scss */
 .team section:nth-child(2) {
   margin-right: 0;
 }
-/* line 149, ../stylesheets/main.scss */
+/* line 150, ../stylesheets/main.scss */
 .team img {
   border-radius: 50%;
   background-color: #f39c12;
   width: 150px;
   height: 150px;
 }
-/* line 155, ../stylesheets/main.scss */
+/* line 156, ../stylesheets/main.scss */
 .team h4 {
   margin: 0.5em 0 0.375em;
 }
-/* line 158, ../stylesheets/main.scss */
-.team h4 span {
+/* line 159, ../stylesheets/main.scss */
+.team h4 a {
   font-weight: 400;
   font-size: .93em;
   margin-left: 4px;
+  color: inherit;
+  text-decoration: none;
 }
-/* line 164, ../stylesheets/main.scss */
+/* line 167, ../stylesheets/main.scss */
 .team h4 + p {
   text-transform: uppercase;
   color: #b3b8cc;
@@ -466,27 +472,37 @@ body > section {
   text-align: center;
   font-weight: 700;
 }
-/* line 174, ../stylesheets/main.scss */
+/* line 177, ../stylesheets/main.scss */
 .team p {
   margin: 0.375em 0;
   text-align: left;
 }
 
-/* line 183, ../stylesheets/main.scss */
+/* line 186, ../stylesheets/main.scss */
 footer {
-  padding: 0.625em 0;
+  padding: 0.875em 0;
 }
 
-/* line 187, ../stylesheets/main.scss */
+/* line 190, ../stylesheets/main.scss */
 .social {
   float: right;
+  margin-top: 3px;
 }
-/* line 190, ../stylesheets/main.scss */
+/* line 194, ../stylesheets/main.scss */
+.social .email {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.125em;
+  position: relative;
+  top: -18px;
+  left: -8px;
+}
+/* line 203, ../stylesheets/main.scss */
 .social img {
   width: 50px;
 }
 
-/* line 195, ../stylesheets/main.scss */
+/* line 208, ../stylesheets/main.scss */
 .partners img {
   width: 90px;
   margin-right: 15px;
