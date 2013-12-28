@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700|Arvo:400,700);
 /*! normalize.css v1.1.2 | MIT License | git.io/normalize */
 /* line 1, ../stylesheets/normalize.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
@@ -302,4 +303,191 @@ table {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+/* COLORS
+==========================*/
+/* TYPOGRAPHY
+==========================*/
+/* line 35, ../stylesheets/main.scss */
+* {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+}
+
+/* line 41, ../stylesheets/main.scss */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #505460;
+}
+
+/* line 50, ../stylesheets/main.scss */
+header {
+  padding: 0.625em 0 0.8125em;
+  border-top: 4px solid #3d5870;
+  background-color: white;
+}
+
+/* line 56, ../stylesheets/main.scss */
+.container {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 18, ../stylesheets/bourbon/addons/_clearfix.scss */
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+/* line 23, ../stylesheets/bourbon/addons/_clearfix.scss */
+.container:after {
+  clear: both;
+}
+
+/* line 60, ../stylesheets/main.scss */
+.logo {
+  width: 100%;
+  margin: 0;
+  max-width: 126px;
+  min-height: 50px;
+  background-image: url(../images/logo-landscape.svg);
+  text-indent: -99999px;
+}
+
+/* line 69, ../stylesheets/main.scss */
+.page-title {
+  font-family: 'Arvo', serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  padding-top: 0.625em;
+  color: #C8D1D8;
+  float: right;
+}
+
+/* line 81, ../stylesheets/main.scss */
+.hero {
+  background-color: #2ecc71;
+  background-image: url("../images/filler-bg.jpg");
+  background-size: cover;
+  background-position: 0 -100px;
+  min-height: 300px;
+}
+
+/* line 93, ../stylesheets/main.scss */
+body > section {
+  text-align: center;
+  padding: 1.5em 0 1.875em;
+  border-bottom: 4px solid #f0f1f5;
+}
+
+/* line 99, ../stylesheets/main.scss */
+.text-wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* line 104, ../stylesheets/main.scss */
+.intro-text p {
+  color: #767fa3;
+  line-height: 1.65em;
+  font-size: 1em;
+  padding-bottom: 1em;
+}
+
+/* line 111, ../stylesheets/main.scss */
+.intro-text h2 {
+  margin-top: 1.2em;
+}
+
+/* line 115, ../stylesheets/main.scss */
+.beta-button {
+  background-color: #2ecc71;
+  border: 0;
+  border-radius: 5px;
+  padding: 1.5em 2.25em;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.875em;
+}
+
+/* line 129, ../stylesheets/main.scss */
+.about-text p {
+  color: #a0a7c0;
+  line-height: 1.65em;
+  font-size: 1.125em;
+}
+
+/* line 140, ../stylesheets/main.scss */
+.team section {
+  display: block;
+  float: left;
+  margin-right: 3.28774%;
+  width: 48.35613%;
+  padding: 0.9375em 0;
+}
+/* line 33, ../stylesheets/neat/grid/_span-columns.scss */
+.team section:last-child {
+  margin-right: 0;
+}
+/* line 145, ../stylesheets/main.scss */
+.team section:nth-child(2) {
+  margin-right: 0;
+}
+/* line 149, ../stylesheets/main.scss */
+.team img {
+  border-radius: 50%;
+  background-color: #f39c12;
+  width: 150px;
+  height: 150px;
+}
+/* line 155, ../stylesheets/main.scss */
+.team h4 {
+  margin: 0.5em 0 0.375em;
+}
+/* line 158, ../stylesheets/main.scss */
+.team h4 span {
+  font-weight: 400;
+  font-size: .93em;
+  margin-left: 4px;
+}
+/* line 164, ../stylesheets/main.scss */
+.team h4 + p {
+  text-transform: uppercase;
+  color: #b3b8cc;
+  font-size: 0.75em;
+  letter-spacing: 0.0625em;
+  margin: 0 0 1em;
+  text-align: center;
+  font-weight: 700;
+}
+/* line 174, ../stylesheets/main.scss */
+.team p {
+  margin: 0.375em 0;
+  text-align: left;
+}
+
+/* line 183, ../stylesheets/main.scss */
+footer {
+  padding: 0.625em 0;
+}
+
+/* line 187, ../stylesheets/main.scss */
+.social {
+  float: right;
+}
+/* line 190, ../stylesheets/main.scss */
+.social img {
+  width: 50px;
+}
+
+/* line 195, ../stylesheets/main.scss */
+.partners img {
+  width: 90px;
+  margin-right: 15px;
 }

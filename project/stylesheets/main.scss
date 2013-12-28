@@ -2,6 +2,198 @@
 @import 'bourbon/bourbon';
 @import 'neat/neat';
 
-body {
- 
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700|Arvo:400,700);
+
+/* COLORS
+==========================*/
+
+$money-color: #2ECC71;
+$gas-color: #F39C12;
+$emissions-color: #95A5A5;
+$calories-color: #DEDE47;
+$oil-color: #232829;
+$light: #F0F1F5;
+
+/* TYPOGRAPHY
+==========================*/
+
+@mixin arvo {
+	font-family: 'Arvo', serif;
 }
+
+@mixin sourcesans {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+@mixin micro-text {
+	@include sourcesans;
+	font-weight: 700;
+	font-size: em(12);
+	text-transform: uppercase;
+}
+
+* { 
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box; /* Firefox, other Gecko */
+	box-sizing: border-box; /* Opera/IE 8+ */
+}
+
+body {
+ 	@include sourcesans;
+	color: #505460;
+}
+
+
+/* HEADER STYLES
+///////////////////////////*/
+
+header {
+	padding: em(10) 0 em(13);
+	border-top: 4px solid lighten(#2B3E4F, 10%);
+	background-color: white;
+}
+
+.container {
+	@include outer-container;
+}
+
+.logo {
+	width: 100%;
+	margin: 0;
+	max-width: 126px;
+	min-height: 50px;
+	background-image: url(../images/logo-landscape.svg);
+	text-indent: -99999px;
+}
+
+.page-title {
+	@include arvo;
+	font-weight: 400;
+	font-size: em(24);
+	padding-top: em(10);
+	color: #C8D1D8;
+	float: right;
+}
+
+/* HERO UNIT
+///////////////////////////*/
+
+.hero {
+	background-color: $money-color;
+	background-image: url('../images/filler-bg.jpg');
+	background-size: cover;
+	background-position: 0 -100px;
+	min-height: 300px;
+}
+
+
+/* CONTENT
+///////////////////////////*/
+
+body > section {
+	text-align: center;
+	padding: em(24) 0 em(30);
+	border-bottom: 4px solid $light; 
+}
+
+.text-wrapper {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.intro-text p {
+	color: darken($light, 40%);
+	line-height: 1.65em;
+	font-size: em(16);
+	padding-bottom: em(16);
+}
+
+.intro-text h2 {
+	margin-top: 1.2em;
+}
+
+.beta-button {
+	background-color: $money-color;
+	border: 0;
+	border-radius: 5px;
+	padding: em(24) em(36);
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: em(14);
+}
+
+/* TEXT
+///////////////////////////*/
+
+.about-text p {
+	color: darken($light, 26%);
+	line-height: 1.65em;
+	font-size: em(18);
+}
+
+/* TEAM MEMBERS
+///////////////////////////*/
+
+.team {
+
+	section {
+		@include span-columns(6);
+		padding: em(15) 0;
+	}
+
+	section:nth-child(2) {
+		margin-right: 0;
+	}
+
+	img {
+		border-radius: 50%;
+		background-color: $gas-color;
+		width: 150px;
+		height: 150px;
+	}
+	h4 {
+		margin: em(8) 0 em(6);
+
+		span {
+			font-weight: 400;
+			font-size: .93em;
+			margin-left: 4px;
+		}
+
+		+ p {
+			text-transform: uppercase;
+			color: darken($light, 20%);
+			font-size: em(12);
+			letter-spacing: em(1);
+			margin: 0 0 em(16);
+			text-align: center;
+			font-weight: 700;
+		}
+	}
+	p {
+		margin: em(6) 0;
+		text-align: left;
+	}
+}
+
+/* FOOTER
+///////////////////////////*/
+
+footer {
+	padding: em(10) 0;
+}
+
+.social {
+	float: right;
+
+	img {
+		width: 50px;
+	}
+}
+
+.partners img {
+	width: 90px;
+	margin-right: 15px;
+}
+
