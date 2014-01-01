@@ -40,6 +40,7 @@ $light: #F0F1F5;
 
 body {
  	@include sourcesans;
+ 	background-color: $light;
 	color: #505460;
 }
 
@@ -48,31 +49,35 @@ body {
 ///////////////////////////*/
 
 header {
-	padding: em(10) 0 em(13);
-	border-top: 4px solid lighten(#2B3E4F, 10%);
+	padding: em(14) 0 em(15);
+	border-top: 6px solid $light;
 	background-color: white;
 }
 
 .container {
 	@include outer-container;
+
 }
 
 .logo {
 	width: 100%;
-	margin: 0;
+	margin: 0 auto;
 	max-width: 126px;
 	min-height: 50px;
 	background-image: url(../images/logo-landscape.svg);
 	text-indent: -99999px;
+	text-align: center;
 }
 
 .page-title {
 	@include arvo;
 	font-weight: 400;
-	font-size: em(24);
-	padding-top: em(10);
+	font-size: em(16);
+	padding-top: em(6);
 	color: #C8D1D8;
-	float: right;
+	text-align: center;
+	// float: right;
+	// display: none;
 }
 
 /* HERO UNIT
@@ -80,9 +85,9 @@ header {
 
 .hero {
 	background-color: $money-color;
-	background-image: url('../images/filler-bg.jpg');
+	// background-image: url('../images/bg2.jpg');
 	background-size: cover;
-	background-position: 0 -100px;
+	background-position: 0 -500px;
 	min-height: 300px;
 }
 
@@ -92,15 +97,17 @@ header {
 
 body > section {
 	text-align: center;
-	padding: em(24) 0 em(30);
-	border-bottom: 4px solid $light; 
+	padding: em(45) 0;
+	background-color: white;
 }
 
 .text-wrapper {
 	width: 70%;
 	margin: 0 auto;
 }
-
+.intro-text {
+	border-top: 4px solid $money-color; 
+}
 .intro-text p {
 	color: darken($light, 40%);
 	line-height: 1.65em;
@@ -109,38 +116,55 @@ body > section {
 }
 
 .intro-text h2 {
-	margin-top: 1.2em;
+	margin-top: 0em;
 }
 
 .beta-button {
-	background-color: $money-color;
+	background-color: darken($money-color, 3%);
 	border: 0;
 	border-radius: 5px;
-	padding: em(24) em(36);
+	padding: em(24) em(50);
 	color: white;
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: em(14);
+	position: relative;
+	text-shadow: 1px 1px 0px darken($money-color, 6%);
+
+	svg {
+		width: 100px;
+		position: absolute;
+		left: em(22);
+		top: em(5);
+		// stroke: darken($money-color, 5%);
+	}
 }
 
 /* TEXT
 ///////////////////////////*/
 
-.about-text p {
-	color: darken($light, 26%);
-	line-height: 1.65em;
-	font-size: em(18);
+.about-text {
+	// border-top: 3px solid darken($light,4%);
+	// border-bottom: 3px solid darken($light,4%);
+	background-color: $light;
+	// padding: em(35) 0 em(35);
+
+	p {
+		color: darken($light, 31%);
+		line-height: 1.65em;
+		font-size: em(18.5);
+	}
 }
 
 /* TEAM MEMBERS
 ///////////////////////////*/
 
 .team {
-	padding-bottom: em(70);
+	padding: em(20) em(10) em(70);
 
 	section {
 		@include span-columns(6);
-		padding: em(15) 0;
+		padding: em(25) em(15);
 	}
 
 	section:nth-child(2) {
@@ -175,9 +199,14 @@ body > section {
 		}
 	}
 	p {
-		margin: em(6) 0;
-		text-align: left;
+		margin: em(4) 0;
+		text-align: justify;
+
+		&:last-child {
+			margin-top: em(15);
+		}
 	}
+
 }
 
 /* FOOTER

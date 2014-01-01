@@ -322,17 +322,18 @@ table {
 /* line 41, ../stylesheets/main.scss */
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  background-color: #f0f1f5;
   color: #505460;
 }
 
-/* line 50, ../stylesheets/main.scss */
+/* line 51, ../stylesheets/main.scss */
 header {
-  padding: 0.625em 0 0.8125em;
-  border-top: 4px solid #3d5870;
+  padding: 0.875em 0 0.9375em;
+  border-top: 6px solid #f0f1f5;
   background-color: white;
 }
 
-/* line 56, ../stylesheets/main.scss */
+/* line 57, ../stylesheets/main.scss */
 .container {
   *zoom: 1;
   max-width: 68em;
@@ -349,49 +350,54 @@ header {
   clear: both;
 }
 
-/* line 60, ../stylesheets/main.scss */
+/* line 62, ../stylesheets/main.scss */
 .logo {
   width: 100%;
-  margin: 0;
+  margin: 0 auto;
   max-width: 126px;
   min-height: 50px;
   background-image: url(../images/logo-landscape.svg);
   text-indent: -99999px;
+  text-align: center;
 }
 
-/* line 69, ../stylesheets/main.scss */
+/* line 72, ../stylesheets/main.scss */
 .page-title {
   font-family: 'Arvo', serif;
   font-weight: 400;
-  font-size: 1.5em;
-  padding-top: 0.625em;
+  font-size: 1em;
+  padding-top: 0.375em;
   color: #C8D1D8;
-  float: right;
+  text-align: center;
 }
 
-/* line 81, ../stylesheets/main.scss */
+/* line 86, ../stylesheets/main.scss */
 .hero {
   background-color: #2ecc71;
-  background-image: url("../images/filler-bg.jpg");
   background-size: cover;
-  background-position: 0 -100px;
+  background-position: 0 -500px;
   min-height: 300px;
 }
 
-/* line 93, ../stylesheets/main.scss */
+/* line 98, ../stylesheets/main.scss */
 body > section {
   text-align: center;
-  padding: 1.5em 0 1.875em;
-  border-bottom: 4px solid #f0f1f5;
+  padding: 2.8125em 0;
+  background-color: white;
 }
 
-/* line 99, ../stylesheets/main.scss */
+/* line 104, ../stylesheets/main.scss */
 .text-wrapper {
   width: 70%;
   margin: 0 auto;
 }
 
-/* line 104, ../stylesheets/main.scss */
+/* line 108, ../stylesheets/main.scss */
+.intro-text {
+  border-top: 4px solid #2ecc71;
+}
+
+/* line 111, ../stylesheets/main.scss */
 .intro-text p {
   color: #767fa3;
   line-height: 1.65em;
@@ -399,62 +405,75 @@ body > section {
   padding-bottom: 1em;
 }
 
-/* line 111, ../stylesheets/main.scss */
+/* line 118, ../stylesheets/main.scss */
 .intro-text h2 {
-  margin-top: 1.2em;
+  margin-top: 0em;
 }
 
-/* line 115, ../stylesheets/main.scss */
+/* line 122, ../stylesheets/main.scss */
 .beta-button {
-  background-color: #2ecc71;
+  background-color: #2bc06a;
   border: 0;
   border-radius: 5px;
-  padding: 1.5em 2.25em;
+  padding: 1.5em 3.125em;
   color: white;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 0.875em;
+  position: relative;
+  text-shadow: 1px 1px 0px #28b363;
+}
+/* line 134, ../stylesheets/main.scss */
+.beta-button svg {
+  width: 100px;
+  position: absolute;
+  left: 1.375em;
+  top: 0.3125em;
 }
 
-/* line 129, ../stylesheets/main.scss */
+/* line 146, ../stylesheets/main.scss */
+.about-text {
+  background-color: #f0f1f5;
+}
+/* line 152, ../stylesheets/main.scss */
 .about-text p {
-  color: #a0a7c0;
+  color: #9198b6;
   line-height: 1.65em;
-  font-size: 1.125em;
+  font-size: 1.15625em;
 }
 
-/* line 138, ../stylesheets/main.scss */
+/* line 162, ../stylesheets/main.scss */
 .team {
-  padding-bottom: 4.375em;
+  padding: 1.25em 0.625em 4.375em;
 }
-/* line 141, ../stylesheets/main.scss */
+/* line 165, ../stylesheets/main.scss */
 .team section {
   display: block;
   float: left;
   margin-right: 3.28774%;
   width: 48.35613%;
-  padding: 0.9375em 0;
+  padding: 1.5625em 0.9375em;
 }
 /* line 33, ../stylesheets/neat/grid/_span-columns.scss */
 .team section:last-child {
   margin-right: 0;
 }
-/* line 146, ../stylesheets/main.scss */
+/* line 170, ../stylesheets/main.scss */
 .team section:nth-child(2) {
   margin-right: 0;
 }
-/* line 150, ../stylesheets/main.scss */
+/* line 174, ../stylesheets/main.scss */
 .team img {
   border-radius: 50%;
   background-color: #f39c12;
   width: 150px;
   height: 150px;
 }
-/* line 156, ../stylesheets/main.scss */
+/* line 180, ../stylesheets/main.scss */
 .team h4 {
   margin: 0.5em 0 0.375em;
 }
-/* line 159, ../stylesheets/main.scss */
+/* line 183, ../stylesheets/main.scss */
 .team h4 a {
   font-weight: 400;
   font-size: .93em;
@@ -462,7 +481,7 @@ body > section {
   color: inherit;
   text-decoration: none;
 }
-/* line 167, ../stylesheets/main.scss */
+/* line 191, ../stylesheets/main.scss */
 .team h4 + p {
   text-transform: uppercase;
   color: #b3b8cc;
@@ -472,23 +491,27 @@ body > section {
   text-align: center;
   font-weight: 700;
 }
-/* line 177, ../stylesheets/main.scss */
+/* line 201, ../stylesheets/main.scss */
 .team p {
-  margin: 0.375em 0;
-  text-align: left;
+  margin: 0.25em 0;
+  text-align: justify;
+}
+/* line 205, ../stylesheets/main.scss */
+.team p:last-child {
+  margin-top: 0.9375em;
 }
 
-/* line 186, ../stylesheets/main.scss */
+/* line 215, ../stylesheets/main.scss */
 footer {
   padding: 0.875em 0;
 }
 
-/* line 190, ../stylesheets/main.scss */
+/* line 219, ../stylesheets/main.scss */
 .social {
   float: right;
   margin-top: 3px;
 }
-/* line 194, ../stylesheets/main.scss */
+/* line 223, ../stylesheets/main.scss */
 .social .email {
   text-decoration: none;
   color: inherit;
@@ -497,12 +520,12 @@ footer {
   top: -18px;
   left: -8px;
 }
-/* line 203, ../stylesheets/main.scss */
+/* line 232, ../stylesheets/main.scss */
 .social img {
   width: 50px;
 }
 
-/* line 208, ../stylesheets/main.scss */
+/* line 237, ../stylesheets/main.scss */
 .partners img {
   width: 90px;
   margin-right: 15px;
