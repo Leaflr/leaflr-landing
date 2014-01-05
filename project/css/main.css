@@ -474,7 +474,7 @@ body > section {
 
 /* line 189, ../stylesheets/main.scss */
 .about-text {
-  background-color: #f9fafc;
+  background-color: #d4d5d9;
 }
 /* line 195, ../stylesheets/main.scss */
 .about-text p {
@@ -574,10 +574,11 @@ footer {
 /* line 286, ../stylesheets/main.scss */
 .social img {
   width: 50px;
+  margin-left: 20px;
 }
 
-/* line 291, ../stylesheets/main.scss */
+/* line 292, ../stylesheets/main.scss */
 .partners img {
   width: 90px;
-  margin-right: 15px;
+  margin-right: 20px;
 }
