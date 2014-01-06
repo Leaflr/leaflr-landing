@@ -189,7 +189,7 @@ body > section {
 .about-text {
 	// border-top: 3px solid darken($light,4%);
 	// border-bottom: 3px solid darken($light,4%);
-	background-color: $light;
+	background-color: $medium2;
 	// padding: em(35) 0 em(35);
 
 	p {
@@ -285,11 +285,12 @@ footer {
 
 	img {
 		width: 50px;
+		margin-left: 20px;
 	}
 }
 
 .partners img {
 	width: 90px;
-	margin-right: 15px;
+	margin-right: 20px;
 }
 
