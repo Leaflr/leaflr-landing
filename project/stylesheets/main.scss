@@ -200,6 +200,20 @@ body > section {
 	}
 }
 
+.mailing-list {
+	// border-top: 3px solid darken($light,4%);
+	// border-bottom: 3px solid darken($light,4%);
+	background-color: white;
+	// padding: em(35) 0 em(35);
+
+	p {
+		color: darken($light, 31%);
+		line-height: 1.65em;
+		font-size: em(18.5);
+		text-align: center;
+	}
+}
+
 /* TEAM MEMBERS
 ///////////////////////////*/
 
@@ -260,6 +274,9 @@ body > section {
 	}
 
 }
+
+/* MailChip
+///////////////////////////*/
 
 /* FOOTER
 ///////////////////////////*/
