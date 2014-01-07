@@ -73,7 +73,7 @@ header {
 	padding: em(14) 0 em(15);
 	border-bottom: 4px solid $medium3;
 	border-top: 4px solid $light-green;
-	background-color: $light;
+	background-color: white;
 }
 
 .container {
@@ -290,9 +290,13 @@ input.email {
 
 	p {
 		color: $dark;
-		line-height: 1.65em;
 		font-size: em(18.5);
 		text-align: center;
+		margin: 10px 0 20px 0;
+	}
+
+	h2 {
+		margin: 0px;
 	}
 }
 
@@ -307,8 +311,8 @@ input.email {
 		@include span-columns(5);
 		// width: 36%; margin: 0 7%;
 		// margin: 0 7%;
-		padding: em(50) em(70);
-		margin-top: 40px;
+		padding: em(70) em(80);
+		margin-top: 20px;
 		background: $light;
 		border-width: 1px 1px 3px !important;
 		border-style: solid;
@@ -389,6 +393,7 @@ input.email {
 	p {
 		margin: em(4) 0;
 		text-align: justify;
+		line-height: 24px;
 
 		&:last-child {
 			margin-top: em(15);
