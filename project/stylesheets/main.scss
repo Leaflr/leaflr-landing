@@ -221,8 +221,10 @@ body > section {
 	padding: em(20) em(10) em(70);
 
 	section {
-		@include span-columns(6);
-		padding: em(40) em(80);
+		@include span-columns(5);
+		// width: 36%; margin: 0 7%;
+		// margin: 0 7%;
+		padding: em(50) em(70);
 		margin-top: 40px;
 		background: $light;
 		border-width: 1px 1px 3px !important;
@@ -233,11 +235,31 @@ body > section {
 		  	-ms-border-radius:5px;
 		  	 -o-border-radius:5px;
 				border-radius:5px;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+	  			box-sizing: border-box;
+	}
+	section:nth-child(1) {
+		margin-left: 8%;
+		margin-right: 2%;
+	}
+	section:nth-child(2) {
+		margin-left: 2%;
+		margin-right: 8%;
+	}
+	section:nth-child(3) {
+		margin-left: 8%;
+		margin-right: 2%;
+	}
+	section:nth-child(4) {
+		margin-left: 2%;
+		margin-right: 8%;
 	}
 
-	section:nth-child(2) {
+
+	/* section:nth-child(2) {
 		margin-right: 0;
-	}
+	}*/
 
 	/*section.team {
 		.container {
