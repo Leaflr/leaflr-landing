@@ -57,6 +57,7 @@ body {
 
 a {
 	color: $light-green;
+	font-weight: 700;
 	text-decoration: none;
 }
 
@@ -124,18 +125,20 @@ body > section {
 	margin: 0 auto;
 }
 .intro-text {
-	background-color: white;
+	background-color: $light;
 	border-top: 4px solid $money-color; 
-}
-.intro-text p {
-	color: darken($light, 40%);
-	line-height: 1.65em;
-	font-size: em(16);
-	padding-bottom: em(16);
-}
-.intro-text h2 {
-	font-size: 1.84em;
-	margin-top: 0em;
+
+	p {
+		color: darken($light, 40%);
+		line-height: 1.65em;
+		font-size: em(16);
+		padding-bottom: em(16);
+	}
+	h2 {
+		font-size: 1.84em;
+		margin-top: 0px;
+		margin-bottom: 30px;
+	}
 }
 
 .beta-button {
@@ -272,9 +275,13 @@ input.email {
 .about-text {
 	// border-top: 3px solid darken($light,4%);
 	// border-bottom: 3px solid darken($light,4%);
-	background-color: $light;
+	background-color: $medium2;
+	border-top: 2px solid $medium3;
 	// padding: em(35) 0 em(35);
 
+	h2 {
+		margin-top: 0;
+	}
 	p {
 		color: darken($medium4, 20%);
 		line-height: 1.65em;

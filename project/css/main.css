@@ -332,16 +332,17 @@ body {
 /* line 58, ../stylesheets/main.scss */
 a {
   color: #2ecc71;
+  font-weight: 700;
   text-decoration: none;
 }
 
-/* line 63, ../stylesheets/main.scss */
+/* line 64, ../stylesheets/main.scss */
 h2 {
   font-size: 1.84em;
   font-weight: bold;
 }
 
-/* line 72, ../stylesheets/main.scss */
+/* line 73, ../stylesheets/main.scss */
 header {
   padding: 0.875em 0 0.9375em;
   border-bottom: 4px solid #d4d5d9;
@@ -349,7 +350,7 @@ header {
   background-color: white;
 }
 
-/* line 79, ../stylesheets/main.scss */
+/* line 80, ../stylesheets/main.scss */
 .container {
   *zoom: 1;
   max-width: 68em;
@@ -366,7 +367,7 @@ header {
   clear: both;
 }
 
-/* line 84, ../stylesheets/main.scss */
+/* line 85, ../stylesheets/main.scss */
 .logo {
   width: 100%;
   margin: 0 auto;
@@ -377,7 +378,7 @@ header {
   text-align: center;
 }
 
-/* line 94, ../stylesheets/main.scss */
+/* line 95, ../stylesheets/main.scss */
 .page-title {
   font-family: 'Arvo', serif;
   font-weight: 400;
@@ -387,46 +388,45 @@ header {
   text-align: center;
 }
 
-/* line 108, ../stylesheets/main.scss */
+/* line 109, ../stylesheets/main.scss */
 .hero {
   background: url("../images/hero.jpg") no-repeat center top fixed;
   width: 100%;
   min-height: 300px;
 }
 
-/* line 118, ../stylesheets/main.scss */
+/* line 119, ../stylesheets/main.scss */
 body > section {
   text-align: center;
   padding: 2.8125em 0;
 }
 
-/* line 122, ../stylesheets/main.scss */
+/* line 123, ../stylesheets/main.scss */
 .text-wrapper {
   width: 70%;
   margin: 0 auto;
 }
 
-/* line 126, ../stylesheets/main.scss */
+/* line 127, ../stylesheets/main.scss */
 .intro-text {
-  background-color: white;
+  background-color: #f9fafc;
   border-top: 4px solid #2ecc71;
 }
-
-/* line 130, ../stylesheets/main.scss */
+/* line 131, ../stylesheets/main.scss */
 .intro-text p {
   color: #7189b8;
   line-height: 1.65em;
   font-size: 1em;
   padding-bottom: 1em;
 }
-
-/* line 136, ../stylesheets/main.scss */
+/* line 137, ../stylesheets/main.scss */
 .intro-text h2 {
   font-size: 1.84em;
-  margin-top: 0em;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
-/* line 141, ../stylesheets/main.scss */
+/* line 144, ../stylesheets/main.scss */
 .beta-button {
   display: inline-block;
   text-align: center;
@@ -464,18 +464,18 @@ body > section {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 178, ../stylesheets/main.scss */
+/* line 181, ../stylesheets/main.scss */
 .beta-button:hover {
   background-color: #27ae60;
   border-color: #239d57;
 }
-/* line 183, ../stylesheets/main.scss */
+/* line 186, ../stylesheets/main.scss */
 .beta-button:active {
   position: relative;
   top: 4;
   border-width: 0;
 }
-/* line 189, ../stylesheets/main.scss */
+/* line 192, ../stylesheets/main.scss */
 .beta-button svg {
   width: 100px;
   position: absolute;
@@ -483,7 +483,7 @@ body > section {
   top: 0.3125em;
 }
 
-/* line 198, ../stylesheets/main.scss */
+/* line 201, ../stylesheets/main.scss */
 .subscribe-button {
   display: inline-block;
   text-align: center;
@@ -521,19 +521,19 @@ body > section {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 235, ../stylesheets/main.scss */
+/* line 238, ../stylesheets/main.scss */
 .subscribe-button:hover {
   background-color: #27ae60;
   border-color: #239d57;
 }
-/* line 240, ../stylesheets/main.scss */
+/* line 243, ../stylesheets/main.scss */
 .subscribe-button:active {
   position: relative;
   top: 4;
   border-width: 0;
 }
 
-/* line 247, ../stylesheets/main.scss */
+/* line 250, ../stylesheets/main.scss */
 input.email {
   width: 60%;
   padding: 0.8em;
@@ -548,17 +548,22 @@ input.email {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 261, ../stylesheets/main.scss */
+/* line 264, ../stylesheets/main.scss */
 input.email:focus {
   border-color: #2ecc71;
   color: #505460;
 }
 
-/* line 272, ../stylesheets/main.scss */
+/* line 275, ../stylesheets/main.scss */
 .about-text {
-  background-color: #f9fafc;
+  background-color: #e6e7ec;
+  border-top: 2px solid #d4d5d9;
 }
-/* line 278, ../stylesheets/main.scss */
+/* line 282, ../stylesheets/main.scss */
+.about-text h2 {
+  margin-top: 0;
+}
+/* line 285, ../stylesheets/main.scss */
 .about-text p {
   color: #868da4;
   line-height: 1.65em;
@@ -566,24 +571,24 @@ input.email:focus {
   text-align: justify;
 }
 
-/* line 286, ../stylesheets/main.scss */
+/* line 293, ../stylesheets/main.scss */
 .mailing-list {
   background-color: #e6e7ec;
   border-top: 2px solid #d4d5d9;
 }
-/* line 291, ../stylesheets/main.scss */
+/* line 298, ../stylesheets/main.scss */
 .mailing-list p {
   color: #505460;
   font-size: 1.15625em;
   text-align: center;
   margin: 10px 0 20px 0;
 }
-/* line 298, ../stylesheets/main.scss */
+/* line 305, ../stylesheets/main.scss */
 .mailing-list h2 {
   margin: 0px;
 }
 
-/* line 306, ../stylesheets/main.scss */
+/* line 313, ../stylesheets/main.scss */
 .team {
   padding: 1.25em 0.625em 4.375em;
   border-top: 2px solid #d4d5d9;
@@ -598,7 +603,7 @@ input.email:focus {
   	}
   }*/
 }
-/* line 310, ../stylesheets/main.scss */
+/* line 317, ../stylesheets/main.scss */
 .team section {
   display: block;
   float: left;
@@ -623,27 +628,27 @@ input.email:focus {
 .team section:last-child {
   margin-right: 0;
 }
-/* line 329, ../stylesheets/main.scss */
+/* line 336, ../stylesheets/main.scss */
 .team section:nth-child(1) {
   margin-left: 8%;
   margin-right: 2%;
 }
-/* line 333, ../stylesheets/main.scss */
+/* line 340, ../stylesheets/main.scss */
 .team section:nth-child(2) {
   margin-left: 2%;
   margin-right: 8%;
 }
-/* line 337, ../stylesheets/main.scss */
+/* line 344, ../stylesheets/main.scss */
 .team section:nth-child(3) {
   margin-left: 8%;
   margin-right: 2%;
 }
-/* line 341, ../stylesheets/main.scss */
+/* line 348, ../stylesheets/main.scss */
 .team section:nth-child(4) {
   margin-left: 2%;
   margin-right: 8%;
 }
-/* line 359, ../stylesheets/main.scss */
+/* line 366, ../stylesheets/main.scss */
 .team img {
   border-radius: 50%;
   background-color: #f39c12;
@@ -653,11 +658,11 @@ input.email:focus {
   -moz-box-shadow: 0px 4px 0px 2px #2ecc71;
   box-shadow: 0px 4px 0px 2px #2ecc71;
 }
-/* line 368, ../stylesheets/main.scss */
+/* line 375, ../stylesheets/main.scss */
 .team h4 {
   margin: 1.875em 0 0.375em;
 }
-/* line 371, ../stylesheets/main.scss */
+/* line 378, ../stylesheets/main.scss */
 .team h4 a {
   font-weight: 400;
   font-size: .93em;
@@ -665,11 +670,11 @@ input.email:focus {
   color: inherit;
   text-decoration: none;
 }
-/* line 378, ../stylesheets/main.scss */
+/* line 385, ../stylesheets/main.scss */
 .team h4 a:hover {
   color: #2ecc71;
 }
-/* line 383, ../stylesheets/main.scss */
+/* line 390, ../stylesheets/main.scss */
 .team h4 + p {
   text-transform: uppercase;
   color: #b5c1da;
@@ -679,18 +684,18 @@ input.email:focus {
   text-align: center;
   font-weight: 700;
 }
-/* line 393, ../stylesheets/main.scss */
+/* line 400, ../stylesheets/main.scss */
 .team p {
   margin: 0.25em 0;
   text-align: justify;
   line-height: 24px;
 }
-/* line 398, ../stylesheets/main.scss */
+/* line 405, ../stylesheets/main.scss */
 .team p:last-child {
   margin-top: 0.9375em;
 }
 
-/* line 411, ../stylesheets/main.scss */
+/* line 418, ../stylesheets/main.scss */
 footer {
   color: #c0c4d0;
   background-color: #f9fafc;
@@ -698,12 +703,12 @@ footer {
   padding: 0.875em 0;
 }
 
-/* line 418, ../stylesheets/main.scss */
+/* line 425, ../stylesheets/main.scss */
 .social {
   float: right;
   margin-top: 6px;
 }
-/* line 422, ../stylesheets/main.scss */
+/* line 429, ../stylesheets/main.scss */
 .social .email {
   text-decoration: none;
   color: inherit;
@@ -712,20 +717,20 @@ footer {
   top: -18px;
   left: -8px;
 }
-/* line 430, ../stylesheets/main.scss */
+/* line 437, ../stylesheets/main.scss */
 .social a {
   margin: 0 10px;
 }
-/* line 433, ../stylesheets/main.scss */
+/* line 440, ../stylesheets/main.scss */
 .social a:last-of-type {
   margin-right: 20px;
 }
-/* line 437, ../stylesheets/main.scss */
+/* line 444, ../stylesheets/main.scss */
 .social img {
   width: 50px;
 }
 
-/* line 442, ../stylesheets/main.scss */
+/* line 449, ../stylesheets/main.scss */
 .partners img {
   width: 90px;
   margin-right: 20px;
