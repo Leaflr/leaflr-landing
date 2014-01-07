@@ -335,13 +335,13 @@ a {
   text-decoration: none;
 }
 
-/* line 61, ../stylesheets/main.scss */
+/* line 62, ../stylesheets/main.scss */
 h2 {
   font-size: 1.84em;
   font-weight: bold;
 }
 
-/* line 70, ../stylesheets/main.scss */
+/* line 71, ../stylesheets/main.scss */
 header {
   padding: 0.875em 0 0.9375em;
   border-top: 6px solid #f9fafc;
@@ -350,7 +350,7 @@ header {
   background-color: white;
 }
 
-/* line 78, ../stylesheets/main.scss */
+/* line 79, ../stylesheets/main.scss */
 .container {
   *zoom: 1;
   max-width: 68em;
@@ -367,7 +367,7 @@ header {
   clear: both;
 }
 
-/* line 83, ../stylesheets/main.scss */
+/* line 84, ../stylesheets/main.scss */
 .logo {
   width: 100%;
   margin: 0 auto;
@@ -378,7 +378,7 @@ header {
   text-align: center;
 }
 
-/* line 93, ../stylesheets/main.scss */
+/* line 94, ../stylesheets/main.scss */
 .page-title {
   font-family: 'Arvo', serif;
   font-weight: 400;
@@ -388,32 +388,32 @@ header {
   text-align: center;
 }
 
-/* line 107, ../stylesheets/main.scss */
+/* line 108, ../stylesheets/main.scss */
 .hero {
   background: url("../images/hero.jpg") no-repeat center top fixed;
   width: 100%;
   min-height: 300px;
 }
 
-/* line 117, ../stylesheets/main.scss */
+/* line 118, ../stylesheets/main.scss */
 body > section {
   text-align: center;
   padding: 2.8125em 0;
 }
 
-/* line 121, ../stylesheets/main.scss */
+/* line 122, ../stylesheets/main.scss */
 .text-wrapper {
   width: 70%;
   margin: 0 auto;
 }
 
-/* line 125, ../stylesheets/main.scss */
+/* line 126, ../stylesheets/main.scss */
 .intro-text {
   background-color: white;
   border-top: 4px solid #2ecc71;
 }
 
-/* line 129, ../stylesheets/main.scss */
+/* line 130, ../stylesheets/main.scss */
 .intro-text p {
   color: #7189b8;
   line-height: 1.65em;
@@ -421,13 +421,13 @@ body > section {
   padding-bottom: 1em;
 }
 
-/* line 135, ../stylesheets/main.scss */
+/* line 136, ../stylesheets/main.scss */
 .intro-text h2 {
   font-size: 1.84em;
   margin-top: 0em;
 }
 
-/* line 140, ../stylesheets/main.scss */
+/* line 141, ../stylesheets/main.scss */
 .beta-button {
   display: inline-block;
   text-align: center;
@@ -438,7 +438,7 @@ body > section {
   overflow: hidden;
   text-overflow: ellipsis;
   background-color: #2bc06a;
-  border-width: 1px 1px 3px !important;
+  border-width: 1px 1px 5px !important;
   border-style: solid;
   border-color: #27ae60;
   border-radius: 5px;
@@ -460,7 +460,7 @@ body > section {
   -moz-box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
   box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
 }
-/* line 172, ../stylesheets/main.scss */
+/* line 173, ../stylesheets/main.scss */
 .beta-button:hover {
   background-color: #27ae60;
 }
@@ -474,7 +474,7 @@ body > section {
 
 /* line 189, ../stylesheets/main.scss */
 .about-text {
-  background-color: #f9fafc;
+  background-color: #d4d5d9;
 }
 /* line 195, ../stylesheets/main.scss */
 .about-text p {
@@ -513,28 +513,41 @@ body > section {
   float: left;
   margin-right: 3.28774%;
   width: 48.35613%;
-  padding: 1.5625em 5em;
+  padding: 2.5em 5em;
+  margin-top: 40px;
+  background: #f9fafc;
+  border-width: 1px 1px 3px !important;
+  border-style: solid;
+  border-color: #d4d5d9;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
 }
 /* line 33, ../stylesheets/neat/grid/_span-columns.scss */
 .team section:last-child {
   margin-right: 0;
 }
-/* line 228, ../stylesheets/main.scss */
+/* line 238, ../stylesheets/main.scss */
 .team section:nth-child(2) {
   margin-right: 0;
 }
-/* line 240, ../stylesheets/main.scss */
+/* line 250, ../stylesheets/main.scss */
 .team img {
   border-radius: 50%;
   background-color: #f39c12;
   width: 150px;
   height: 150px;
+  -webkit-box-shadow: 0px 4px 0px 2px #2ecc71;
+  -moz-box-shadow: 0px 4px 0px 2px #2ecc71;
+  box-shadow: 0px 4px 0px 2px #2ecc71;
 }
-/* line 246, ../stylesheets/main.scss */
+/* line 259, ../stylesheets/main.scss */
 .team h4 {
-  margin: 0.5em 0 0.375em;
+  margin: 0.75em 0 0.375em;
 }
-/* line 249, ../stylesheets/main.scss */
+/* line 262, ../stylesheets/main.scss */
 .team h4 a {
   font-weight: 400;
   font-size: .93em;
@@ -542,7 +555,7 @@ body > section {
   color: inherit;
   text-decoration: none;
 }
-/* line 257, ../stylesheets/main.scss */
+/* line 270, ../stylesheets/main.scss */
 .team h4 + p {
   text-transform: uppercase;
   color: #b5c1da;
@@ -552,29 +565,29 @@ body > section {
   text-align: center;
   font-weight: 700;
 }
-/* line 267, ../stylesheets/main.scss */
+/* line 280, ../stylesheets/main.scss */
 .team p {
   margin: 0.25em 0;
   text-align: justify;
 }
-/* line 271, ../stylesheets/main.scss */
+/* line 284, ../stylesheets/main.scss */
 .team p:last-child {
   margin-top: 0.9375em;
 }
 
-/* line 284, ../stylesheets/main.scss */
+/* line 297, ../stylesheets/main.scss */
 footer {
   background-color: #f9fafc;
   border-top: 2px solid #d4d5d9;
   padding: 0.875em 0;
 }
 
-/* line 290, ../stylesheets/main.scss */
+/* line 303, ../stylesheets/main.scss */
 .social {
   float: right;
   margin-top: 3px;
 }
-/* line 294, ../stylesheets/main.scss */
+/* line 307, ../stylesheets/main.scss */
 .social .email {
   text-decoration: none;
   color: inherit;
@@ -583,13 +596,21 @@ footer {
   top: -18px;
   left: -8px;
 }
-/* line 303, ../stylesheets/main.scss */
+/* line 315, ../stylesheets/main.scss */
+.social a {
+  margin: 0 10px;
+}
+/* line 318, ../stylesheets/main.scss */
+.social a:last-of-type {
+  margin-right: 20px;
+}
+/* line 322, ../stylesheets/main.scss */
 .social img {
   width: 50px;
 }
 
-/* line 308, ../stylesheets/main.scss */
+/* line 327, ../stylesheets/main.scss */
 .partners img {
   width: 90px;
-  margin-right: 15px;
+  margin-right: 20px;
 }

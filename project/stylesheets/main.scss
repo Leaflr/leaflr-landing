@@ -58,6 +58,7 @@ a {
 	color: $light-green;
 	text-decoration: none;
 }
+
 h2 {
 	font-size: 1.84em;
 	font-weight: bold;
@@ -147,7 +148,7 @@ body > section {
 	overflow:hidden;
 	text-overflow:ellipsis;
 	background-color: darken($money-color, 3%);
-	border-width: 1px 1px 3px !important;
+	border-width: 1px 1px 5px !important;
 	border-style: solid;
 	border-color: #27ae60;
 	border-radius: 5px;
@@ -158,21 +159,20 @@ body > section {
 	position: relative;
 	text-shadow: 1px 1px 0px darken($money-color, 6%);
 	-webkit-border-radius:5px;
-	-moz-border-radius:5px;
-	-ms-border-radius:5px;
-	-o-border-radius:5px;
-	border-radius:5px;
+	   -moz-border-radius:5px;
+	  	-ms-border-radius:5px;
+	  	 -o-border-radius:5px;
+			border-radius:5px;
 	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	  		box-sizing:border-box;
 	-webkit-box-shadow:0 -1px 0 rgba(255,255,255,0.1) inset;
-	-moz-box-shadow:0 -1px 0 rgba(255,255,255,0.1) inset;
-	box-shadow:0 -1px 0 rgba(255,255,255,0.1) inset;
+	   -moz-box-shadow:0 -1px 0 rgba(255,255,255,0.1) inset;
+	  		box-shadow:0 -1px 0 rgba(255,255,255,0.1) inset;
 
 	&:hover {
 		background-color: $dark-green;
 	}
-
 
 	svg {
 		width: 100px;
@@ -222,7 +222,17 @@ body > section {
 
 	section {
 		@include span-columns(6);
-		padding: em(25) em(80);
+		padding: em(40) em(80);
+		margin-top: 40px;
+		background: $light;
+		border-width: 1px 1px 3px !important;
+		border-style: solid;
+		border-color: $medium2;
+		-webkit-border-radius:5px;
+		   -moz-border-radius:5px;
+		  	-ms-border-radius:5px;
+		  	 -o-border-radius:5px;
+				border-radius:5px;
 	}
 
 	section:nth-child(2) {
@@ -242,9 +252,12 @@ body > section {
 		background-color: $gas-color;
 		width: 150px;
 		height: 150px;
+		-webkit-box-shadow: 0px 4px 0px 2px $light-green;
+		-moz-box-shadow: 0px 4px 0px 2px $light-green;
+		box-shadow: 0px 4px 0px 2px $light-green;
 	}
 	h4 {
-		margin: em(8) 0 em(6);
+		margin: em(12) 0 em(6);
 
 		a {
 			font-weight: 400;
@@ -299,10 +312,15 @@ footer {
 		top: -18px;
 		left: -8px;
 	}
+	a {
+		margin: 0 10px;
 
+		&:last-of-type {
+            margin-right: 20px;
+        }
+	}
 	img {
 		width: 50px;
-		margin-left: 20px;
 	}
 }
 
