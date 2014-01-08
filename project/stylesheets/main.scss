@@ -283,7 +283,7 @@ input.email {
 		margin-top: 0;
 	}
 	p {
-		color: darken($medium4, 20%);
+		color: darken($medium4, 30%);
 		line-height: 1.65em;
 		font-size: em(18.5);
 		text-align: justify;
@@ -319,7 +319,7 @@ input.email {
 		// width: 36%; margin: 0 7%;
 		// margin: 0 7%;
 		padding: em(70) em(80);
-		margin-top: 20px;
+		margin: 20px 0;
 		background: $light;
 		border-width: 1px 1px 3px !important;
 		border-style: solid;
@@ -389,7 +389,7 @@ input.email {
 
 		+ p {
 			text-transform: uppercase;
-			color: darken($light, 20%);
+			color: $medium4;
 			font-size: em(12);
 			letter-spacing: em(1);
 			margin: 0 0 em(16);
@@ -420,6 +420,19 @@ footer {
 	background-color: $light;
 	border-top: 2px solid $medium3; 
 	padding: em(14) 0;
+
+	img {
+		-webkit-transition: opacity 0.3s ease;
+		   -moz-transition: opacity 0.3s ease;
+			-ms-transition: opacity 0.3s ease;
+			 -o-transition: opacity 0.3s ease;
+				transition: opacity 0.3s ease;
+
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+
 }
 
 .social {
@@ -436,6 +449,7 @@ footer {
 	}
 	a {
 		margin: 0 10px;
+		font-weight: normal;
 
 		&:last-of-type {
             margin-right: 20px;

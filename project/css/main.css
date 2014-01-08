@@ -565,7 +565,7 @@ input.email:focus {
 }
 /* line 285, ../stylesheets/main.scss */
 .about-text p {
-  color: #868da4;
+  color: #6a738d;
   line-height: 1.65em;
   font-size: 1.15625em;
   text-align: justify;
@@ -610,7 +610,7 @@ input.email:focus {
   margin-right: 3.28774%;
   width: 39.74882%;
   padding: 4.375em 5em;
-  margin-top: 20px;
+  margin: 20px 0;
   background: #f9fafc;
   border-width: 1px 1px 3px !important;
   border-style: solid;
@@ -677,7 +677,7 @@ input.email:focus {
 /* line 390, ../stylesheets/main.scss */
 .team h4 + p {
   text-transform: uppercase;
-  color: #b5c1da;
+  color: #c0c4d0;
   font-size: 0.75em;
   letter-spacing: 0.0625em;
   margin: 0 0 1em;
@@ -702,13 +702,25 @@ footer {
   border-top: 2px solid #d4d5d9;
   padding: 0.875em 0;
 }
+/* line 424, ../stylesheets/main.scss */
+footer img {
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  -ms-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+/* line 431, ../stylesheets/main.scss */
+footer img:hover {
+  opacity: 0.8;
+}
 
-/* line 425, ../stylesheets/main.scss */
+/* line 438, ../stylesheets/main.scss */
 .social {
   float: right;
   margin-top: 6px;
 }
-/* line 429, ../stylesheets/main.scss */
+/* line 442, ../stylesheets/main.scss */
 .social .email {
   text-decoration: none;
   color: inherit;
@@ -717,20 +729,21 @@ footer {
   top: -18px;
   left: -8px;
 }
-/* line 437, ../stylesheets/main.scss */
+/* line 450, ../stylesheets/main.scss */
 .social a {
   margin: 0 10px;
+  font-weight: normal;
 }
-/* line 440, ../stylesheets/main.scss */
+/* line 454, ../stylesheets/main.scss */
 .social a:last-of-type {
   margin-right: 20px;
 }
-/* line 444, ../stylesheets/main.scss */
+/* line 458, ../stylesheets/main.scss */
 .social img {
   width: 50px;
 }
 
-/* line 449, ../stylesheets/main.scss */
+/* line 463, ../stylesheets/main.scss */
 .partners img {
   width: 90px;
   margin-right: 20px;
