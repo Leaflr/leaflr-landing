@@ -305,14 +305,36 @@ table {
   box-sizing: border-box;
 }
 
-/* COLORS
-==========================*/
+/*====================================================================
+
+  ,ad8888ba,                88                                      
+ d8"'    `"8b               88                                      
+d8'                         88                                      
+88              ,adPPYba,   88   ,adPPYba,   8b,dPPYba,  ,adPPYba,  
+88             a8"     "8a  88  a8"     "8a  88P'   "Y8  I8[    ""  
+Y8,            8b       d8  88  8b       d8  88           `"Y8ba,   
+ Y8a.    .a8P  "8a,   ,a8"  88  "8a,   ,a8"  88          aa    ]8I  
+  `"Y8888Y"'    `"YbbdP"'   88   `"YbbdP"'   88          `"YbbdP"' 
+
+====================================================================*/
 /* Icons */
 /* Greys */
 /* Greens */
-/* TYPOGRAPHY
-==========================*/
-/* line 46, ../stylesheets/main.scss */
+/*====================================================================
+
+888888888888                                   
+     88                                        
+     88                                        
+     88  8b       d8  8b,dPPYba,    ,adPPYba,  
+     88  `8b     d8'  88P'    "8a  a8P_____88  
+     88   `8b   d8'   88       d8  8PP"""""""  
+     88    `8b,d8'    88b,   ,a8"  "8b,   ,aa  
+     88      Y88'     88`YbbdP"'    `"Ybbd8"'  
+             d8'      88                       
+            d8'       88                       
+
+====================================================================*/
+/* line 69, ../stylesheets/main.scss */
 * {
   -webkit-box-sizing: border-box;
   /* Safari/Chrome, other WebKit */
@@ -322,27 +344,39 @@ table {
   /* Opera/IE 8+ */
 }
 
-/* line 52, ../stylesheets/main.scss */
+/* line 75, ../stylesheets/main.scss */
 body {
   font-family: 'Source Sans Pro', sans-serif;
   background-color: #f0f1f5;
   color: #505460;
 }
 
-/* line 58, ../stylesheets/main.scss */
+/* line 81, ../stylesheets/main.scss */
 a {
   color: #2ecc71;
   font-weight: 700;
   text-decoration: none;
 }
 
-/* line 64, ../stylesheets/main.scss */
+/* line 87, ../stylesheets/main.scss */
 h2 {
   font-size: 1.84em;
   font-weight: bold;
 }
 
-/* line 73, ../stylesheets/main.scss */
+/*====================================================================
+
+88        88                                   88                          
+88        88                                   88                          
+88        88                                   88                          
+88aaaaaaaa88   ,adPPYba,  ,adPPYYba,   ,adPPYb,88   ,adPPYba,  8b,dPPYba,  
+88""""""""88  a8P_____88  ""     `Y8  a8"    `Y88  a8P_____88  88P'   "Y8  
+88        88  8PP"""""""  ,adPPPPP88  8b       88  8PP"""""""  88          
+88        88  "8b,   ,aa  88,    ,88  "8a,   ,d88  "8b,   ,aa  88          
+88        88   `"Ybbd8"'  `"8bbdP"Y8   `"8bbdP"Y8   `"Ybbd8"'  88         
+
+====================================================================*/
+/* line 106, ../stylesheets/main.scss */
 header {
   padding: 0.875em 0 0.9375em;
   border-bottom: 4px solid #d4d5d9;
@@ -350,7 +384,7 @@ header {
   background-color: white;
 }
 
-/* line 80, ../stylesheets/main.scss */
+/* line 113, ../stylesheets/main.scss */
 .container {
   *zoom: 1;
   max-width: 68em;
@@ -367,7 +401,7 @@ header {
   clear: both;
 }
 
-/* line 85, ../stylesheets/main.scss */
+/* line 118, ../stylesheets/main.scss */
 .logo {
   width: 100%;
   margin: 0 auto;
@@ -378,7 +412,7 @@ header {
   text-align: center;
 }
 
-/* line 95, ../stylesheets/main.scss */
+/* line 128, ../stylesheets/main.scss */
 .page-title {
   font-family: 'Arvo', serif;
   font-weight: 400;
@@ -388,45 +422,57 @@ header {
   text-align: center;
 }
 
-/* line 109, ../stylesheets/main.scss */
+/* line 142, ../stylesheets/main.scss */
 .hero {
   background: url("../images/hero.jpg") no-repeat center top fixed;
   width: 100%;
   min-height: 300px;
 }
 
-/* line 119, ../stylesheets/main.scss */
+/*====================================================================
+
+  ,ad8888ba,                                                                     
+ d8"'    `"8b                             ,d                              ,d     
+d8'                                       88                              88     
+88              ,adPPYba,   8b,dPPYba,  MM88MMM  ,adPPYba,  8b,dPPYba,  MM88MMM  
+88             a8"     "8a  88P'   `"8a   88    a8P_____88  88P'   `"8a   88     
+Y8,            8b       d8  88       88   88    8PP"""""""  88       88   88     
+ Y8a.    .a8P  "8a,   ,a8"  88       88   88,   "8b,   ,aa  88       88   88,    
+  `"Y8888Y"'    `"YbbdP"'   88       88   "Y888  `"Ybbd8"'  88       88   "Y888 
+
+====================================================================*/
+/* line 162, ../stylesheets/main.scss */
 body > section {
   text-align: center;
   padding: 2.8125em 0;
 }
 
-/* line 123, ../stylesheets/main.scss */
+/* line 166, ../stylesheets/main.scss */
 .text-wrapper {
   width: 70%;
   margin: 0 auto;
 }
 
-/* line 127, ../stylesheets/main.scss */
+/* line 170, ../stylesheets/main.scss */
 .intro-text {
   background-color: #f9fafc;
   border-top: 4px solid #2ecc71;
 }
-/* line 131, ../stylesheets/main.scss */
+/* line 174, ../stylesheets/main.scss */
 .intro-text p {
   color: #7189b8;
   line-height: 1.65em;
   font-size: 1em;
   padding-bottom: 1em;
 }
-/* line 137, ../stylesheets/main.scss */
+/* line 180, ../stylesheets/main.scss */
 .intro-text h2 {
   font-size: 1.84em;
   margin-top: 0px;
   margin-bottom: 30px;
 }
 
-/* line 144, ../stylesheets/main.scss */
+/* line 187, ../stylesheets/main.scss */
 .beta-button {
   display: inline-block;
   text-align: center;
@@ -464,18 +510,18 @@ body > section {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 181, ../stylesheets/main.scss */
+/* line 224, ../stylesheets/main.scss */
 .beta-button:hover {
   background-color: #27ae60;
   border-color: #239d57;
 }
-/* line 186, ../stylesheets/main.scss */
+/* line 229, ../stylesheets/main.scss */
 .beta-button:active {
   position: relative;
   top: 4;
   border-width: 0;
 }
-/* line 192, ../stylesheets/main.scss */
+/* line 235, ../stylesheets/main.scss */
 .beta-button svg {
   width: 100px;
   position: absolute;
@@ -483,7 +529,7 @@ body > section {
   top: 0.3125em;
 }
 
-/* line 201, ../stylesheets/main.scss */
+/* line 244, ../stylesheets/main.scss */
 .subscribe-button {
   display: inline-block;
   text-align: center;
@@ -521,19 +567,19 @@ body > section {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 238, ../stylesheets/main.scss */
+/* line 281, ../stylesheets/main.scss */
 .subscribe-button:hover {
   background-color: #27ae60;
   border-color: #239d57;
 }
-/* line 243, ../stylesheets/main.scss */
+/* line 286, ../stylesheets/main.scss */
 .subscribe-button:active {
   position: relative;
   top: 4;
   border-width: 0;
 }
 
-/* line 250, ../stylesheets/main.scss */
+/* line 293, ../stylesheets/main.scss */
 input.email {
   width: 60%;
   padding: 0.8em;
@@ -548,22 +594,34 @@ input.email {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 264, ../stylesheets/main.scss */
+/* line 307, ../stylesheets/main.scss */
 input.email:focus {
   border-color: #2ecc71;
   color: #505460;
 }
 
-/* line 275, ../stylesheets/main.scss */
+/*====================================================================
+
+888888888888                               
+     88                             ,d     
+     88                             88     
+     88   ,adPPYba,  8b,     ,d8  MM88MMM  
+     88  a8P_____88   `Y8, ,8P'     88     
+     88  8PP"""""""     )888(       88     
+     88  "8b,   ,aa   ,d8" "8b,     88,    
+     88   `"Ybbd8"'  8P'     `Y8    "Y888 
+
+====================================================================*/
+/* line 328, ../stylesheets/main.scss */
 .about-text {
   background-color: #e6e7ec;
   border-top: 2px solid #d4d5d9;
 }
-/* line 282, ../stylesheets/main.scss */
+/* line 335, ../stylesheets/main.scss */
 .about-text h2 {
   margin-top: 0;
 }
-/* line 285, ../stylesheets/main.scss */
+/* line 338, ../stylesheets/main.scss */
 .about-text p {
   color: #6a738d;
   line-height: 1.65em;
@@ -571,24 +629,36 @@ input.email:focus {
   text-align: justify;
 }
 
-/* line 293, ../stylesheets/main.scss */
+/* line 346, ../stylesheets/main.scss */
 .mailing-list {
   background-color: #e6e7ec;
   border-top: 2px solid #d4d5d9;
 }
-/* line 298, ../stylesheets/main.scss */
+/* line 351, ../stylesheets/main.scss */
 .mailing-list p {
   color: #505460;
   font-size: 1.15625em;
   text-align: center;
   margin: 10px 0 20px 0;
 }
-/* line 305, ../stylesheets/main.scss */
+/* line 358, ../stylesheets/main.scss */
 .mailing-list h2 {
   margin: 0px;
 }
 
-/* line 313, ../stylesheets/main.scss */
+/*====================================================================
+
+888888888888                                         
+     88                                              
+     88                                              
+     88   ,adPPYba,  ,adPPYYba,  88,dPYba,,adPYba,   
+     88  a8P_____88  ""     `Y8  88P'   "88"    "8a  
+     88  8PP"""""""  ,adPPPPP88  88      88      88  
+     88  "8b,   ,aa  88,    ,88  88      88      88  
+     88   `"Ybbd8"'  `"8bbdP"Y8  88      88      88 
+
+====================================================================*/
+/* line 376, ../stylesheets/main.scss */
 .team {
   padding: 1.25em 0.625em 4.375em;
   border-top: 2px solid #d4d5d9;
@@ -603,7 +673,7 @@ input.email:focus {
   	}
   }*/
 }
-/* line 317, ../stylesheets/main.scss */
+/* line 380, ../stylesheets/main.scss */
 .team section {
   display: block;
   float: left;
@@ -628,27 +698,27 @@ input.email:focus {
 .team section:last-child {
   margin-right: 0;
 }
-/* line 336, ../stylesheets/main.scss */
+/* line 399, ../stylesheets/main.scss */
 .team section:nth-child(1) {
   margin-left: 8%;
   margin-right: 2%;
 }
-/* line 340, ../stylesheets/main.scss */
+/* line 403, ../stylesheets/main.scss */
 .team section:nth-child(2) {
   margin-left: 2%;
   margin-right: 8%;
 }
-/* line 344, ../stylesheets/main.scss */
+/* line 407, ../stylesheets/main.scss */
 .team section:nth-child(3) {
   margin-left: 8%;
   margin-right: 2%;
 }
-/* line 348, ../stylesheets/main.scss */
+/* line 411, ../stylesheets/main.scss */
 .team section:nth-child(4) {
   margin-left: 2%;
   margin-right: 8%;
 }
-/* line 366, ../stylesheets/main.scss */
+/* line 429, ../stylesheets/main.scss */
 .team img {
   border-radius: 50%;
   background-color: #f39c12;
@@ -658,11 +728,11 @@ input.email:focus {
   -moz-box-shadow: 0px 4px 0px 2px #2ecc71;
   box-shadow: 0px 4px 0px 2px #2ecc71;
 }
-/* line 375, ../stylesheets/main.scss */
+/* line 438, ../stylesheets/main.scss */
 .team h4 {
   margin: 1.875em 0 0.375em;
 }
-/* line 378, ../stylesheets/main.scss */
+/* line 441, ../stylesheets/main.scss */
 .team h4 a {
   font-weight: 400;
   font-size: .93em;
@@ -670,11 +740,11 @@ input.email:focus {
   color: inherit;
   text-decoration: none;
 }
-/* line 385, ../stylesheets/main.scss */
+/* line 448, ../stylesheets/main.scss */
 .team h4 a:hover {
   color: #2ecc71;
 }
-/* line 390, ../stylesheets/main.scss */
+/* line 453, ../stylesheets/main.scss */
 .team h4 + p {
   text-transform: uppercase;
   color: #c0c4d0;
@@ -684,25 +754,37 @@ input.email:focus {
   text-align: center;
   font-weight: 700;
 }
-/* line 400, ../stylesheets/main.scss */
+/* line 463, ../stylesheets/main.scss */
 .team p {
   margin: 0.25em 0;
   text-align: justify;
   line-height: 24px;
 }
-/* line 405, ../stylesheets/main.scss */
+/* line 468, ../stylesheets/main.scss */
 .team p:last-child {
   margin-top: 0.9375em;
 }
 
-/* line 418, ../stylesheets/main.scss */
+/*====================================================================
+
+88888888888                                                       
+88                                  ,d                            
+88                                  88                            
+88aaaaa   ,adPPYba,    ,adPPYba,  MM88MMM  ,adPPYba,  8b,dPPYba,  
+88"""""  a8"     "8a  a8"     "8a   88    a8P_____88  88P'   "Y8  
+88       8b       d8  8b       d8   88    8PP"""""""  88          
+88       "8a,   ,a8"  "8a,   ,a8"   88,   "8b,   ,aa  88          
+88        `"YbbdP"'    `"YbbdP"'    "Y888  `"Ybbd8"'  88         
+
+====================================================================*/
+/* line 491, ../stylesheets/main.scss */
 footer {
   color: #c0c4d0;
   background-color: #f9fafc;
   border-top: 2px solid #d4d5d9;
   padding: 0.875em 0;
 }
-/* line 424, ../stylesheets/main.scss */
+/* line 497, ../stylesheets/main.scss */
 footer img {
   -webkit-transition: opacity 0.3s ease;
   -moz-transition: opacity 0.3s ease;
@@ -710,17 +792,17 @@ footer img {
   -o-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
-/* line 431, ../stylesheets/main.scss */
+/* line 504, ../stylesheets/main.scss */
 footer img:hover {
   opacity: 0.8;
 }
 
-/* line 438, ../stylesheets/main.scss */
+/* line 511, ../stylesheets/main.scss */
 .social {
   float: right;
   margin-top: 6px;
 }
-/* line 442, ../stylesheets/main.scss */
+/* line 515, ../stylesheets/main.scss */
 .social .email {
   text-decoration: none;
   color: inherit;
@@ -729,21 +811,21 @@ footer img:hover {
   top: -18px;
   left: -8px;
 }
-/* line 450, ../stylesheets/main.scss */
+/* line 523, ../stylesheets/main.scss */
 .social a {
   margin: 0 10px;
   font-weight: normal;
 }
-/* line 454, ../stylesheets/main.scss */
+/* line 527, ../stylesheets/main.scss */
 .social a:last-of-type {
   margin-right: 20px;
 }
-/* line 458, ../stylesheets/main.scss */
+/* line 531, ../stylesheets/main.scss */
 .social img {
   width: 50px;
 }
 
-/* line 463, ../stylesheets/main.scss */
+/* line 536, ../stylesheets/main.scss */
 .partners img {
   width: 90px;
   margin-right: 20px;
