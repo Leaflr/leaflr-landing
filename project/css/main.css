@@ -455,44 +455,40 @@ body > section {
 
 /* line 170, ../stylesheets/main.scss */
 .intro-text {
+  height: 220px;
   background-color: #f9fafc;
   border-top: 4px solid #2ecc71;
 }
-/* line 174, ../stylesheets/main.scss */
+/* line 175, ../stylesheets/main.scss */
 .intro-text p {
   color: #7189b8;
   line-height: 1.65em;
   font-size: 1em;
   padding-bottom: 1em;
 }
-/* line 180, ../stylesheets/main.scss */
+/* line 181, ../stylesheets/main.scss */
 .intro-text h2 {
   font-size: 1.84em;
   margin-top: 0px;
   margin-bottom: 30px;
 }
 
-/* line 187, ../stylesheets/main.scss */
+/* line 188, ../stylesheets/main.scss */
 .beta-button {
-  display: inline-block;
   text-align: center;
   cursor: pointer;
   text-decoration: none;
-  text-shadow: 0 1px 0px rgba(0, 0, 0, 0.15);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  background-color: #2bc06a;
-  border-width: 1px 1px 5px !important;
-  border-style: solid;
-  border-color: #27ae60;
-  border-radius: 5px;
   padding: 1em 2em;
   color: white;
   font-weight: 700;
   font-size: 1.125em;
-  position: relative;
-  text-shadow: 1px 1px 0px #28b363;
+  background-color: #2ecc71;
+  border: 0;
+  margin-top: -4px;
+  text-shadow: 0 1px 0px rgba(0, 0, 0, 0.15);
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -501,37 +497,32 @@ body > section {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
-  -moz-box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
-  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-box-shadow: 0 4px 0 #2abb68;
+  -moz-box-shadow: 0 4px 0 #2abb68;
+  box-shadow: 0 4px 0 #2abb68;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
-/* line 224, ../stylesheets/main.scss */
+/* line 219, ../stylesheets/main.scss */
 .beta-button:hover {
-  background-color: #27ae60;
-  border-color: #239d57;
+  background-color: #3bd37c;
+  text-shadow: 0 -1px -1px #2ecc71;
+  -webkit-box-shadow: 0 4px 0 #2cc46c;
+  -moz-box-shadow: 0 4px 0 #2cc46c;
+  box-shadow: 0 4px 0 #2cc46c;
 }
-/* line 229, ../stylesheets/main.scss */
+/* line 228, ../stylesheets/main.scss */
 .beta-button:active {
-  position: relative;
-  top: 4;
-  border-width: 0;
-}
-/* line 235, ../stylesheets/main.scss */
-.beta-button svg {
-  width: 100px;
-  position: absolute;
-  left: 1.375em;
-  top: 0.3125em;
+  margin-top: 0px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
 
-/* line 244, ../stylesheets/main.scss */
+/* line 236, ../stylesheets/main.scss */
 .subscribe-button {
-  display: inline-block;
   text-align: center;
   cursor: pointer;
   text-decoration: none;
@@ -540,15 +531,14 @@ body > section {
   overflow: hidden;
   text-overflow: ellipsis;
   background-color: #2bc06a;
-  border-width: 1px 1px 5px !important;
-  border-style: solid;
-  border-color: #27ae60;
+  border: 0;
   border-radius: 5px;
   padding: 0.625em 1.5em;
   color: white;
   font-weight: 700;
   font-size: 1.125em;
   position: relative;
+  margin-top: -4px;
   text-shadow: 1px 1px 0px #28b363;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -558,28 +548,31 @@ body > section {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
-  -moz-box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
-  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-box-shadow: 0 4px 0 #27ae60;
+  -moz-box-shadow: 0 4px 0 #27ae60;
+  box-shadow: 0 4px 0 #27ae60;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
-/* line 281, ../stylesheets/main.scss */
+/* line 270, ../stylesheets/main.scss */
 .subscribe-button:hover {
-  background-color: #27ae60;
-  border-color: #239d57;
+  background-color: #3bd37c;
+  text-shadow: 0 -1px -1px #2ecc71;
+  -webkit-box-shadow: 0 4px 0 #2cc46c;
+  -moz-box-shadow: 0 4px 0 #2cc46c;
+  box-shadow: 0 4px 0 #2cc46c;
 }
-/* line 286, ../stylesheets/main.scss */
+/* line 279, ../stylesheets/main.scss */
 .subscribe-button:active {
-  position: relative;
-  top: 4;
-  border-width: 0;
+  margin-top: 0px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
 
-/* line 293, ../stylesheets/main.scss */
+/* line 287, ../stylesheets/main.scss */
 input.email {
   width: 60%;
   padding: 0.8em;
@@ -594,7 +587,7 @@ input.email {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 307, ../stylesheets/main.scss */
+/* line 301, ../stylesheets/main.scss */
 input.email:focus {
   border-color: #2ecc71;
   color: #505460;
@@ -612,16 +605,16 @@ input.email:focus {
      88   `"Ybbd8"'  8P'     `Y8    "Y888 
 
 ====================================================================*/
-/* line 328, ../stylesheets/main.scss */
+/* line 322, ../stylesheets/main.scss */
 .about-text {
   background-color: #e6e7ec;
   border-top: 2px solid #d4d5d9;
 }
-/* line 335, ../stylesheets/main.scss */
+/* line 329, ../stylesheets/main.scss */
 .about-text h2 {
   margin-top: 0;
 }
-/* line 338, ../stylesheets/main.scss */
+/* line 332, ../stylesheets/main.scss */
 .about-text p {
   color: #6a738d;
   line-height: 1.65em;
@@ -629,19 +622,20 @@ input.email:focus {
   text-align: justify;
 }
 
-/* line 346, ../stylesheets/main.scss */
+/* line 340, ../stylesheets/main.scss */
 .mailing-list {
+  height: 290px;
   background-color: #e6e7ec;
   border-top: 2px solid #d4d5d9;
 }
-/* line 351, ../stylesheets/main.scss */
+/* line 345, ../stylesheets/main.scss */
 .mailing-list p {
   color: #505460;
   font-size: 1.15625em;
   text-align: center;
   margin: 10px 0 20px 0;
 }
-/* line 358, ../stylesheets/main.scss */
+/* line 352, ../stylesheets/main.scss */
 .mailing-list h2 {
   margin: 0px;
 }
@@ -658,7 +652,7 @@ input.email:focus {
      88   `"Ybbd8"'  `"8bbdP"Y8  88      88      88 
 
 ====================================================================*/
-/* line 376, ../stylesheets/main.scss */
+/* line 370, ../stylesheets/main.scss */
 .team {
   padding: 1.25em 0.625em 4.375em;
   border-top: 2px solid #d4d5d9;
@@ -673,7 +667,7 @@ input.email:focus {
   	}
   }*/
 }
-/* line 380, ../stylesheets/main.scss */
+/* line 374, ../stylesheets/main.scss */
 .team section {
   display: block;
   float: left;
@@ -698,27 +692,27 @@ input.email:focus {
 .team section:last-child {
   margin-right: 0;
 }
-/* line 399, ../stylesheets/main.scss */
+/* line 393, ../stylesheets/main.scss */
 .team section:nth-child(1) {
   margin-left: 8%;
   margin-right: 2%;
 }
-/* line 403, ../stylesheets/main.scss */
+/* line 397, ../stylesheets/main.scss */
 .team section:nth-child(2) {
   margin-left: 2%;
   margin-right: 8%;
 }
-/* line 407, ../stylesheets/main.scss */
+/* line 401, ../stylesheets/main.scss */
 .team section:nth-child(3) {
   margin-left: 8%;
   margin-right: 2%;
 }
-/* line 411, ../stylesheets/main.scss */
+/* line 405, ../stylesheets/main.scss */
 .team section:nth-child(4) {
   margin-left: 2%;
   margin-right: 8%;
 }
-/* line 429, ../stylesheets/main.scss */
+/* line 423, ../stylesheets/main.scss */
 .team img {
   border-radius: 50%;
   background-color: #f39c12;
@@ -728,11 +722,11 @@ input.email:focus {
   -moz-box-shadow: 0px 4px 0px 2px #2ecc71;
   box-shadow: 0px 4px 0px 2px #2ecc71;
 }
-/* line 438, ../stylesheets/main.scss */
+/* line 432, ../stylesheets/main.scss */
 .team h4 {
   margin: 1.875em 0 0.375em;
 }
-/* line 441, ../stylesheets/main.scss */
+/* line 435, ../stylesheets/main.scss */
 .team h4 a {
   font-weight: 400;
   font-size: .93em;
@@ -740,11 +734,11 @@ input.email:focus {
   color: inherit;
   text-decoration: none;
 }
-/* line 448, ../stylesheets/main.scss */
+/* line 442, ../stylesheets/main.scss */
 .team h4 a:hover {
   color: #2ecc71;
 }
-/* line 453, ../stylesheets/main.scss */
+/* line 447, ../stylesheets/main.scss */
 .team h4 + p {
   text-transform: uppercase;
   color: #c0c4d0;
@@ -754,13 +748,13 @@ input.email:focus {
   text-align: center;
   font-weight: 700;
 }
-/* line 463, ../stylesheets/main.scss */
+/* line 457, ../stylesheets/main.scss */
 .team p {
   margin: 0.25em 0;
   text-align: justify;
   line-height: 24px;
 }
-/* line 468, ../stylesheets/main.scss */
+/* line 462, ../stylesheets/main.scss */
 .team p:last-child {
   margin-top: 0.9375em;
 }
@@ -777,14 +771,14 @@ input.email:focus {
 88        `"YbbdP"'    `"YbbdP"'    "Y888  `"Ybbd8"'  88         
 
 ====================================================================*/
-/* line 491, ../stylesheets/main.scss */
+/* line 485, ../stylesheets/main.scss */
 footer {
   color: #c0c4d0;
   background-color: #f9fafc;
   border-top: 2px solid #d4d5d9;
   padding: 0.875em 0;
 }
-/* line 497, ../stylesheets/main.scss */
+/* line 491, ../stylesheets/main.scss */
 footer img {
   -webkit-transition: opacity 0.3s ease;
   -moz-transition: opacity 0.3s ease;
@@ -792,17 +786,17 @@ footer img {
   -o-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
-/* line 504, ../stylesheets/main.scss */
+/* line 498, ../stylesheets/main.scss */
 footer img:hover {
   opacity: 0.8;
 }
 
-/* line 511, ../stylesheets/main.scss */
+/* line 505, ../stylesheets/main.scss */
 .social {
   float: right;
   margin-top: 6px;
 }
-/* line 515, ../stylesheets/main.scss */
+/* line 509, ../stylesheets/main.scss */
 .social .email {
   text-decoration: none;
   color: inherit;
@@ -811,21 +805,21 @@ footer img:hover {
   top: -18px;
   left: -8px;
 }
-/* line 523, ../stylesheets/main.scss */
+/* line 517, ../stylesheets/main.scss */
 .social a {
   margin: 0 10px;
   font-weight: normal;
 }
-/* line 527, ../stylesheets/main.scss */
+/* line 521, ../stylesheets/main.scss */
 .social a:last-of-type {
   margin-right: 20px;
 }
-/* line 531, ../stylesheets/main.scss */
+/* line 525, ../stylesheets/main.scss */
 .social img {
   width: 50px;
 }
 
-/* line 536, ../stylesheets/main.scss */
+/* line 530, ../stylesheets/main.scss */
 .partners img {
   width: 90px;
   margin-right: 20px;

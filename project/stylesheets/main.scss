@@ -168,6 +168,7 @@ body > section {
 	margin: 0 auto;
 }
 .intro-text {
+	height: 220px;
 	background-color: $light;
 	border-top: 4px solid $money-color; 
 
@@ -185,25 +186,20 @@ body > section {
 }
 
 .beta-button {
-	display:inline-block;
 	text-align:center;
 	cursor:pointer;
 	text-decoration:none;
-	text-shadow:0 1px 0px rgba(0,0,0,0.15);
 	white-space:nowrap;
 	overflow:hidden;
 	text-overflow:ellipsis;
-	background-color: darken($money-color, 3%);
-	border-width: 1px 1px 5px !important;
-	border-style: solid;
-	border-color: $dark-green;
-	border-radius: 5px;
 	padding: em(16) em(32);
 	color: white;
 	font-weight: 700;
 	font-size: em(18);
-	position: relative;
-	text-shadow: 1px 1px 0px darken($money-color, 6%);
+	background-color: $money-color;
+	border: 0;
+	margin-top: -4px;
+	text-shadow:0 1px 0px rgba(0,0,0,0.15);
 	-webkit-border-radius:5px;
 	   -moz-border-radius:5px;
 	  	-ms-border-radius:5px;
@@ -212,37 +208,32 @@ body > section {
 	-webkit-box-sizing:border-box;
 	   -moz-box-sizing:border-box;
 	  		box-sizing:border-box;
-	-webkit-box-shadow:0 -1px 0 rgba(255,255,255,0.1) inset;
-	   -moz-box-shadow:0 -1px 0 rgba(255,255,255,0.1) inset;
-	  		box-shadow:0 -1px 0 rgba(255,255,255,0.1) inset;
-	-webkit-transition: all 0.3s ease;
-	   -moz-transition: all 0.3s ease;
-		-ms-transition: all 0.3s ease;
-		 -o-transition: all 0.3s ease;
-			transition: all 0.3s ease;
+	-webkit-box-shadow: 0 4px 0 darken($money-color, 4%);
+	   -moz-box-shadow: 0 4px 0 darken($money-color, 4%);
+	  		box-shadow: 0 4px 0 darken($money-color, 4%);
+	-webkit-transition: all 0.15s ease-in-out;
+	   -moz-transition: all 0.15s ease-in-out;
+	  	 -o-transition: all 0.15s ease-in-out;
+			transition: all 0.15s ease-in-out;
 
 	&:hover {
-		background-color: $dark-green;
-		border-color: darken($dark-green, 4%);
+		background-color: lighten($light-green, 4%);
+		text-shadow: 0 -1px -1px $money-color;
+		-webkit-box-shadow: 0 4px 0 darken($money-color, 2%);
+		   -moz-box-shadow: 0 4px 0 darken($money-color, 2%);
+		  		box-shadow: 0 4px 0 darken($money-color, 2%);
+
 	}
 
 	&:active {
-		position: relative;
-		top: 4;
-		border-width: 0;
-	}
-
-	svg {
-		width: 100px;
-		position: absolute;
-		left: em(22);
-		top: em(5);
-		// stroke: darken($money-color, 5%);
+		margin-top: 0px;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
 	}
 }
 
 .subscribe-button {
-	display:inline-block;
 	text-align:center;
 	cursor:pointer;
 	text-decoration:none;
@@ -251,15 +242,14 @@ body > section {
 	overflow:hidden;
 	text-overflow:ellipsis;
 	background-color: darken($money-color, 3%);
-	border-width: 1px 1px 5px !important;
-	border-style: solid;
-	border-color: $dark-green;
+	border: 0;
 	border-radius: 5px;
 	padding: em(10) em(24);
 	color: white;
 	font-weight: 700;
 	font-size: em(18);
 	position: relative;
+	margin-top: -4px;
 	text-shadow: 1px 1px 0px darken($money-color, 6%);
 	-webkit-border-radius:5px;
 	   -moz-border-radius:5px;
@@ -269,24 +259,28 @@ body > section {
 	-webkit-box-sizing:border-box;
 	   -moz-box-sizing:border-box;
 	  		box-sizing:border-box;
-	-webkit-box-shadow:0 -1px 0 rgba(255,255,255,0.1) inset;
-	   -moz-box-shadow:0 -1px 0 rgba(255,255,255,0.1) inset;
-	  		box-shadow:0 -1px 0 rgba(255,255,255,0.1) inset;
-	-webkit-transition: all 0.3s ease;
-	   -moz-transition: all 0.3s ease;
-		-ms-transition: all 0.3s ease;
-		 -o-transition: all 0.3s ease;
-			transition: all 0.3s ease;
+	-webkit-box-shadow: 0 4px 0 $dark-green;
+	   -moz-box-shadow: 0 4px 0 $dark-green;
+	  		box-shadow: 0 4px 0 $dark-green;
+	-webkit-transition: all 0.15s ease-in-out;
+	   -moz-transition: all 0.15s ease-in-out;
+	  	 -o-transition: all 0.15s ease-in-out;
+			transition: all 0.15s ease-in-out;
 
 	&:hover {
-		background-color: $dark-green;
-		border-color: darken($dark-green, 4%);
+		background-color: lighten($light-green, 4%);
+		text-shadow: 0 -1px -1px $money-color;
+		-webkit-box-shadow: 0 4px 0 darken($money-color, 2%);
+		   -moz-box-shadow: 0 4px 0 darken($money-color, 2%);
+		  		box-shadow: 0 4px 0 darken($money-color, 2%);
+
 	}
 
 	&:active {
-		position: relative;
-		top: 4;
-		border-width: 0;
+		margin-top: 0px;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
 	}
 }
 
@@ -344,9 +338,9 @@ input.email {
 }
 
 .mailing-list {
+	height: 290px;
 	background-color: $medium2;
 	border-top: 2px solid $medium3;
-	// padding: em(35) 0 em(35);
 
 	p {
 		color: $dark;
