@@ -225,11 +225,12 @@ body > section {
 
 	}
 
-	&:active {
+	&:active, &:focus {
 		margin-top: 0px;
 		-webkit-box-shadow: none;
 		-moz-box-shadow: none;
 		box-shadow: none;
+		outline: 0;
 	}
 }
 
@@ -276,8 +277,9 @@ body > section {
 
 	}
 
-	&:active {
+	&:active, &:focus {
 		margin-top: 0px;
+		outline: 0;
 		-webkit-box-shadow: none;
 		-moz-box-shadow: none;
 		box-shadow: none;

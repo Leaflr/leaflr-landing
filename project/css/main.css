@@ -514,14 +514,15 @@ body > section {
   box-shadow: 0 4px 0 #2cc46c;
 }
 /* line 228, ../stylesheets/main.scss */
-.beta-button:active {
+.beta-button:active, .beta-button:focus {
   margin-top: 0px;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+  outline: 0;
 }
 
-/* line 236, ../stylesheets/main.scss */
+/* line 237, ../stylesheets/main.scss */
 .subscribe-button {
   text-align: center;
   cursor: pointer;
@@ -556,7 +557,7 @@ body > section {
   -o-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
-/* line 270, ../stylesheets/main.scss */
+/* line 271, ../stylesheets/main.scss */
 .subscribe-button:hover {
   background-color: #3bd37c;
   text-shadow: 0 -1px -1px #2ecc71;
@@ -564,15 +565,16 @@ body > section {
   -moz-box-shadow: 0 4px 0 #2cc46c;
   box-shadow: 0 4px 0 #2cc46c;
 }
-/* line 279, ../stylesheets/main.scss */
-.subscribe-button:active {
+/* line 280, ../stylesheets/main.scss */
+.subscribe-button:active, .subscribe-button:focus {
   margin-top: 0px;
+  outline: 0;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
 }
 
-/* line 287, ../stylesheets/main.scss */
+/* line 289, ../stylesheets/main.scss */
 input.email {
   width: 60%;
   padding: 0.8em;
@@ -587,7 +589,7 @@ input.email {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 301, ../stylesheets/main.scss */
+/* line 303, ../stylesheets/main.scss */
 input.email:focus {
   border-color: #2ecc71;
   color: #505460;
@@ -605,16 +607,16 @@ input.email:focus {
      88   `"Ybbd8"'  8P'     `Y8    "Y888 
 
 ====================================================================*/
-/* line 322, ../stylesheets/main.scss */
+/* line 324, ../stylesheets/main.scss */
 .about-text {
   background-color: #e6e7ec;
   border-top: 2px solid #d4d5d9;
 }
-/* line 329, ../stylesheets/main.scss */
+/* line 331, ../stylesheets/main.scss */
 .about-text h2 {
   margin-top: 0;
 }
-/* line 332, ../stylesheets/main.scss */
+/* line 334, ../stylesheets/main.scss */
 .about-text p {
   color: #6a738d;
   line-height: 1.65em;
@@ -622,20 +624,20 @@ input.email:focus {
   text-align: justify;
 }
 
-/* line 340, ../stylesheets/main.scss */
+/* line 342, ../stylesheets/main.scss */
 .mailing-list {
   height: 290px;
   background-color: #e6e7ec;
   border-top: 2px solid #d4d5d9;
 }
-/* line 345, ../stylesheets/main.scss */
+/* line 347, ../stylesheets/main.scss */
 .mailing-list p {
   color: #505460;
   font-size: 1.15625em;
   text-align: center;
   margin: 10px 0 20px 0;
 }
-/* line 352, ../stylesheets/main.scss */
+/* line 354, ../stylesheets/main.scss */
 .mailing-list h2 {
   margin: 0px;
 }
@@ -652,7 +654,7 @@ input.email:focus {
      88   `"Ybbd8"'  `"8bbdP"Y8  88      88      88 
 
 ====================================================================*/
-/* line 370, ../stylesheets/main.scss */
+/* line 372, ../stylesheets/main.scss */
 .team {
   padding: 1.25em 0.625em 4.375em;
   border-top: 2px solid #d4d5d9;
@@ -667,7 +669,7 @@ input.email:focus {
   	}
   }*/
 }
-/* line 374, ../stylesheets/main.scss */
+/* line 376, ../stylesheets/main.scss */
 .team section {
   display: block;
   float: left;
@@ -692,27 +694,27 @@ input.email:focus {
 .team section:last-child {
   margin-right: 0;
 }
-/* line 393, ../stylesheets/main.scss */
+/* line 395, ../stylesheets/main.scss */
 .team section:nth-child(1) {
   margin-left: 8%;
   margin-right: 2%;
 }
-/* line 397, ../stylesheets/main.scss */
+/* line 399, ../stylesheets/main.scss */
 .team section:nth-child(2) {
   margin-left: 2%;
   margin-right: 8%;
 }
-/* line 401, ../stylesheets/main.scss */
+/* line 403, ../stylesheets/main.scss */
 .team section:nth-child(3) {
   margin-left: 8%;
   margin-right: 2%;
 }
-/* line 405, ../stylesheets/main.scss */
+/* line 407, ../stylesheets/main.scss */
 .team section:nth-child(4) {
   margin-left: 2%;
   margin-right: 8%;
 }
-/* line 423, ../stylesheets/main.scss */
+/* line 425, ../stylesheets/main.scss */
 .team img {
   border-radius: 50%;
   background-color: #f39c12;
@@ -722,11 +724,11 @@ input.email:focus {
   -moz-box-shadow: 0px 4px 0px 2px #2ecc71;
   box-shadow: 0px 4px 0px 2px #2ecc71;
 }
-/* line 432, ../stylesheets/main.scss */
+/* line 434, ../stylesheets/main.scss */
 .team h4 {
   margin: 1.875em 0 0.375em;
 }
-/* line 435, ../stylesheets/main.scss */
+/* line 437, ../stylesheets/main.scss */
 .team h4 a {
   font-weight: 400;
   font-size: .93em;
@@ -734,11 +736,11 @@ input.email:focus {
   color: inherit;
   text-decoration: none;
 }
-/* line 442, ../stylesheets/main.scss */
+/* line 444, ../stylesheets/main.scss */
 .team h4 a:hover {
   color: #2ecc71;
 }
-/* line 447, ../stylesheets/main.scss */
+/* line 449, ../stylesheets/main.scss */
 .team h4 + p {
   text-transform: uppercase;
   color: #c0c4d0;
@@ -748,13 +750,13 @@ input.email:focus {
   text-align: center;
   font-weight: 700;
 }
-/* line 457, ../stylesheets/main.scss */
+/* line 459, ../stylesheets/main.scss */
 .team p {
   margin: 0.25em 0;
   text-align: justify;
   line-height: 24px;
 }
-/* line 462, ../stylesheets/main.scss */
+/* line 464, ../stylesheets/main.scss */
 .team p:last-child {
   margin-top: 0.9375em;
 }
@@ -771,14 +773,14 @@ input.email:focus {
 88        `"YbbdP"'    `"YbbdP"'    "Y888  `"Ybbd8"'  88         
 
 ====================================================================*/
-/* line 485, ../stylesheets/main.scss */
+/* line 487, ../stylesheets/main.scss */
 footer {
   color: #c0c4d0;
   background-color: #f9fafc;
   border-top: 2px solid #d4d5d9;
   padding: 0.875em 0;
 }
-/* line 491, ../stylesheets/main.scss */
+/* line 493, ../stylesheets/main.scss */
 footer img {
   -webkit-transition: opacity 0.3s ease;
   -moz-transition: opacity 0.3s ease;
@@ -786,17 +788,17 @@ footer img {
   -o-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
-/* line 498, ../stylesheets/main.scss */
+/* line 500, ../stylesheets/main.scss */
 footer img:hover {
   opacity: 0.8;
 }
 
-/* line 505, ../stylesheets/main.scss */
+/* line 507, ../stylesheets/main.scss */
 .social {
   float: right;
   margin-top: 6px;
 }
-/* line 509, ../stylesheets/main.scss */
+/* line 511, ../stylesheets/main.scss */
 .social .email {
   text-decoration: none;
   color: inherit;
@@ -805,21 +807,21 @@ footer img:hover {
   top: -18px;
   left: -8px;
 }
-/* line 517, ../stylesheets/main.scss */
+/* line 519, ../stylesheets/main.scss */
 .social a {
   margin: 0 10px;
   font-weight: normal;
 }
-/* line 521, ../stylesheets/main.scss */
+/* line 523, ../stylesheets/main.scss */
 .social a:last-of-type {
   margin-right: 20px;
 }
-/* line 525, ../stylesheets/main.scss */
+/* line 527, ../stylesheets/main.scss */
 .social img {
   width: 50px;
 }
 
-/* line 530, ../stylesheets/main.scss */
+/* line 532, ../stylesheets/main.scss */
 .partners img {
   width: 90px;
   margin-right: 20px;
