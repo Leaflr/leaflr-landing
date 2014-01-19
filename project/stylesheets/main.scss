@@ -301,6 +301,7 @@ input.email {
 			transition: all 0.5s ease;
 
 	&:focus {
+		outline: 0;
 		border-color: $light-green;
 		color: $dark;
 	}
